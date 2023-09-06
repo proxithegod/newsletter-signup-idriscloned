@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* border: 1px solid red; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(235, 18%, 26%);
+}
+
+main {
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.leftbox {
+    /* border: 1px solid red; */
+    height: 85vh;
+    width: 30vw;
+    padding-left: 35px;
+    margin: auto;
+}
+
+h1 {
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 3.2em;
+}
+
+.mainp {
+    /* border: 1px solid red; */
+    font-weight: 400;
+    font-size: 0.97em;
+    margin-top: 20px;
+}
+
+.list {
+    margin-top: 20px;
+    align-items: center;
+    /* border: 1px solid red; */
+    font-size: 0.97em;
+}
+
+.list img {
+    height: 20px;
+    width: 20px;
+}
+
+.first {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.second {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.third {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+h4 {
+    margin-top: 35px;
+    font-size: 0.7em;
+}
+
+.emailinput {
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 13px;
+    width: 25.3vw;
+    outline: none;
+    border: 0.5px solid hsl(231, 7%, 60%);
+    cursor: pointer
+}
+
+::-webkit-input-placeholder {
+    color: hsl(231, 7%, 60%);
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 13px;
+    width: 27.7vw;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(4, 100%, 67%);
+}
+
+button:active {
+    transform: scale(0.96);
+}
+
+h5 {
+    color: red;
+    position: relative;
+    left: 240px;
+    bottom: 130px;
+    font-size: 0.7em;
+    display: none;
+}
+
+.rightbox {
+    /* border: 1px solid red; */
+    border-radius: 15px;
+    height: 85vh;
+    width: 28vw;
+    background-image: url(./assets/images/illustration-sign-up-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.thanks-container {
+    /* border: 2px solid darkred; */
+    width: 30%;
+    height: 70vh;
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 100px;
+    display: none;
+}
+
+.thanks-container .icon-container {
+    /* border: 1px solid saddlebrown; */
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.thanks-container .icon-container img {
+    margin-top: 30px;
+}
+
+.thanks-container h1 {
+    /* border: 1px solid lawngreen; */
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 2.5em;
+    color: hsl(234, 29%, 20%);
+}
+
+.thanks-container .information {
+    width: 80%;
+    /* border: 1px solid violet; */
+    margin: auto;
+    margin-top: 15px;
+    color: hsl(234, 29%, 20%);
+    font-size: 0.95em;
+}
+
+.thanks-container .information .dynamic-mail {
+    font-weight: bold;
+}
+
+.thanks-container .dismiss-btn {
+    border: none;
+    display: block;
+    width: 80%;
+    height: 43px;
+    margin: auto;
+    margin-top: 13px;
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.thanks-container .dismiss-btn:hover {
+    cursor: pointer;
+    background-color: hsl(4, 100%, 67%);
+}
